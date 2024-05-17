@@ -1,6 +1,6 @@
 def bubble_sort(input_array):
-    for val in range(len(input_array)):
-        for i in range(len(input_array) - 1 - val):
+    for iter in range(len(input_array)):
+        for i in range(len(input_array) - 1 - iter):
             if input_array[i] > input_array[i + 1]:
                 input_array[i], input_array[i + 1] = input_array[i + 1], input_array[i]
 
