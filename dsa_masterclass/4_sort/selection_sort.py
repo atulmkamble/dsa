@@ -7,6 +7,12 @@ def selection_sort(input_array):
         input_array[i], input_array[min_val_index] = input_array[min_val_index], input_array[i]
 
 
-array_to_sort = [99, 54, 35, 22, 9, 2, 2]
-selection_sort(array_to_sort)
-print(f"Output: {array_to_sort}")
+def main():
+    array_to_sort = [99, 54, 35, 22, 9, 2, 2]
+    print(f"Input: {array_to_sort}")
+    selection_sort(array_to_sort)
+    print(f"Output: {array_to_sort}")
+
+
+if __name__ == '__main__':
+    main()

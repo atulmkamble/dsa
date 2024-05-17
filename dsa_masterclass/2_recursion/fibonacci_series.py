@@ -5,5 +5,10 @@ def fib(n):
         return fib(n - 1) + fib(n - 2)
 
 
-number = 6
-print(f"Output: {fib(number)}")
+def main():
+    number = 6
+    print(f"Output: {fib(number)}")
+
+
+if __name__ == '__main__':
+    main()

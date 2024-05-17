@@ -16,4 +16,9 @@ def binary_search(input_array, target):
     return -1
 
 
-print(f"Output: {binary_search([1, 5, 7, 39, 76, 98], 98)}")
+def main():
+    print(f"Output: {binary_search([1, 5, 7, 39, 76, 98], 98)}")
+
+
+if __name__ == '__main__':
+    main()

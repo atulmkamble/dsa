@@ -34,17 +34,22 @@ class BinaryTree:
         return traversal_list
 
 
-tree = BinaryTree(3)
+def main():
+    tree = BinaryTree(3)
 
-tree.root.left = Node(4)
-tree.root.left.left = Node(6)
-tree.root.left.right = Node(7)
+    tree.root.left = Node(4)
+    tree.root.left.left = Node(6)
+    tree.root.left.right = Node(7)
 
-tree.root.right = Node(5)
-tree.root.right.left = Node(8)
-tree.root.right.right = Node(9)
+    tree.root.right = Node(5)
+    tree.root.right.left = Node(8)
+    tree.root.right.right = Node(9)
 
-print('Root Node          :', tree.root.value)
-print('Preorder Traversal :', tree.preorder(tree.root, []))
-print('Inorder Traversal  :', tree.inorder(tree.root, []))
-print('Postorder Traversal:', tree.postorder(tree.root, []))
+    print('Root Node          :', tree.root.value)
+    print('Preorder Traversal :', tree.preorder(tree.root, []))
+    print('Inorder Traversal  :', tree.inorder(tree.root, []))
+    print('Postorder Traversal:', tree.postorder(tree.root, []))
+
+
+if __name__ == '__main__':
+    main()

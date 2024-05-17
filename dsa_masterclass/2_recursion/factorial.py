@@ -5,5 +5,10 @@ def fact(n):
         return n * fact(n - 1)
 
 
-number = 5
-print(f'Output: {fact(number)}')
+def main():
+    number = 5
+    print(f'Output: {fact(number)}')
+
+
+if __name__ == '__main__':
+    main()

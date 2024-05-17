@@ -5,5 +5,10 @@ def recursion(counter):
     recursion(counter + 1)
 
 
-count = 1
-recursion(count)
+def main():
+    count = 1
+    recursion(count)
+
+
+if __name__ == '__main__':
+    main()

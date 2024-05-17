@@ -21,4 +21,9 @@ def binary_search(input_array, target):
     return binary_search_helper(input_array, left, right, target)
 
 
-print(f"Output: {binary_search([1, 4, 6, 9, 14, 46, 78, 98], 98)}")
+def main():
+    print(f"Output: {binary_search([1, 4, 6, 9, 14, 46, 78, 98], 98)}")
+
+
+if __name__ == '__main__':
+    main()

@@ -38,6 +38,12 @@ def merge_sort(input_array):
     return merge(left_result, right_result)
 
 
-unsorted_array = [4, 3, 6, 7, 8, 2, 1, 9, 5]
-output_array = merge_sort(unsorted_array)
-print(f"Output: {output_array}")
+def main():
+    unsorted_array = [4, 3, 6, 7, 8, 2, 1, 9, 5]
+    print(f"Input: {unsorted_array}")
+    output_array = merge_sort(unsorted_array)
+    print(f"Output: {output_array}")
+
+
+if __name__ == '__main__':
+    main()

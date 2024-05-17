@@ -6,6 +6,11 @@ def run(val):
     print(val)
 
 
-n = 10
-run(n)
-print('Completed')
+def main():
+    n = 10
+    run(n)
+    print('Completed')
+
+
+if __name__ == '__main__':
+    main()

@@ -27,6 +27,12 @@ def qs_helper(input_array, start, end):
     qs_helper(input_array, high + 1, end)
 
 
-input_array = [4, 3, 2, 5, 1, 9, 7, 6, 8]
-quick_sort(input_array)
-print(f"Output: {input_array}")
+def main():
+    input_array = [4, 3, 2, 5, 1, 9, 7, 6, 8]
+    print(f"Input: {input_array}")
+    quick_sort(input_array)
+    print(f"Output: {input_array}")
+
+
+if __name__ == '__main__':
+    main()

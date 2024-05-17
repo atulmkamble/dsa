@@ -10,6 +10,12 @@ def insertion_sort(input_array):
         input_array[last_ele_of_sorted_index + 1] = key
 
 
-array_to_sort = [5, 4, 3, 2, 1]
-insertion_sort(array_to_sort)
-print(f"Output: {array_to_sort}")
+def main():
+    array_to_sort = [5, 4, 3, 2, 1]
+    print(f"Input: {array_to_sort}")
+    insertion_sort(array_to_sort)
+    print(f"Output: {array_to_sort}")
+
+
+if __name__ == '__main__':
+    main()
